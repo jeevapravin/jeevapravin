@@ -20,7 +20,7 @@
 <tr>
 <td width="33%" align="center" valign="top">
 
-<img src="https://img.shields.io/badge/🚀-Real--Time_ML_Systems-7c3aed?style=for-the-badge&labelColor=0d0d18" />
+<img src="https://img.shields.io/badge/-Real--Time_ML_Systems-7c3aed?style=for-the-badge&labelColor=0d0d18" />
 
 <br/><sub>High-throughput inference engines. Sub-100ms routing via Dijkstra on OpenStreetMap. Live coordinate streaming over WebSockets. Dynamic surge pricing with XGBoost + LightGBM ensemble.</sub>
 
@@ -35,7 +35,7 @@
 </td>
 <td width="33%" align="center" valign="top">
 
-<img src="https://img.shields.io/badge/🧠-LLM_%26_RAG_Pipelines-3b82f6?style=for-the-badge&labelColor=0d0d18" />
+<img src="https://img.shields.io/badge/-LLM_%26_RAG_Pipelines-3b82f6?style=for-the-badge&labelColor=0d0d18" />
 
 <br/><sub>Fine-tuned LLaMA-2 on medical corpora via instruction tuning. RAG grounding via ChromaDB — 100% responses from verified sources. 3-stage pipeline: intent classification → semantic retrieval → safety filtering.</sub>
 
@@ -49,7 +49,7 @@
 </td>
 <td width="33%" align="center" valign="top">
 
-<img src="https://img.shields.io/badge/🔬-Multimodal_AI_Research-9333ea?style=for-the-badge&labelColor=0d0d18" />
+<img src="https://img.shields.io/badge/-Multimodal_AI_Research-9333ea?style=for-the-badge&labelColor=0d0d18" />
 
 <br/><sub>Investigating CLIP embedding failure modes in AI-generated image detection. SVD null-space projection to decouple semantic components from forgery artifacts. Cross-generator benchmarking across Stable Diffusion, StyleGAN2, BigGAN.</sub>
 
