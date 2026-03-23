@@ -1,0 +1,300 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="900" height="420">
+  <defs>
+    <!-- Planet gradient -->
+    <radialGradient id="pg" cx="32%" cy="28%" r="70%">
+      <stop offset="0%" stop-color="#d4b8ff"/>
+      <stop offset="35%" stop-color="#9a5fff"/>
+      <stop offset="100%" stop-color="#390083"/>
+    </radialGradient>
+
+    <!-- Name text gradient -->
+    <linearGradient id="ng" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#bd9dff"/>
+      <stop offset="50%" stop-color="#699cff"/>
+      <stop offset="100%" stop-color="#bd9dff"/>
+    </linearGradient>
+
+    <!-- Nebula glow behind name -->
+    <radialGradient id="nebula" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Planet aura -->
+    <radialGradient id="aura" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#bd9dff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#bd9dff" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Badge bg gradients -->
+    <linearGradient id="badge1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#9333ea" stop-opacity="0.1"/>
+    </linearGradient>
+    <linearGradient id="badge2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.1"/>
+    </linearGradient>
+
+    <!-- Glow filter -->
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- Soft glow filter -->
+    <filter id="softglow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!--  BACKGROUND                            -->
+  <!-- ═══════════════════════════════════════ -->
+  <rect width="900" height="420" fill="#05050f" rx="14"/>
+
+  <!-- Outer border with violet glow -->
+  <rect x="1" y="1" width="898" height="418" fill="none"
+        stroke="#7c3aed" stroke-opacity="0.28" stroke-width="1" rx="13"/>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!--  STARS (twinkling)                     -->
+  <!-- ═══════════════════════════════════════ -->
+  <circle cx="42" cy="22" r="1.1" fill="white">
+    <animate attributeName="opacity" values="0.15;0.95;0.15" dur="3.1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="138" cy="16" r="0.8" fill="white">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="2.6s" repeatCount="indefinite" begin="0.8s"/>
+  </circle>
+  <circle cx="245" cy="38" r="1.3" fill="white">
+    <animate attributeName="opacity" values="0.1;0.8;0.1" dur="4.1s" repeatCount="indefinite" begin="1.3s"/>
+  </circle>
+  <circle cx="322" cy="19" r="0.7" fill="white">
+    <animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.6s" repeatCount="indefinite" begin="0.5s"/>
+  </circle>
+  <circle cx="568" cy="26" r="1" fill="white">
+    <animate attributeName="opacity" values="0.15;0.85;0.15" dur="2.9s" repeatCount="indefinite" begin="1.6s"/>
+  </circle>
+  <circle cx="670" cy="15" r="0.9" fill="white">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="3.4s" repeatCount="indefinite" begin="0.4s"/>
+  </circle>
+  <circle cx="755" cy="33" r="0.7" fill="white">
+    <animate attributeName="opacity" values="0.1;0.75;0.1" dur="4.3s" repeatCount="indefinite" begin="1s"/>
+  </circle>
+  <circle cx="858" cy="20" r="1.1" fill="white">
+    <animate attributeName="opacity" values="0.2;0.95;0.2" dur="2.8s" repeatCount="indefinite" begin="2.1s"/>
+  </circle>
+  <circle cx="88" cy="390" r="0.9" fill="white">
+    <animate attributeName="opacity" values="0.15;0.8;0.15" dur="3.7s" repeatCount="indefinite" begin="1.2s"/>
+  </circle>
+  <circle cx="720" cy="400" r="1" fill="white">
+    <animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.1s" repeatCount="indefinite" begin="0.7s"/>
+  </circle>
+  <circle cx="820" cy="385" r="0.7" fill="white">
+    <animate attributeName="opacity" values="0.1;0.7;0.1" dur="2.9s" repeatCount="indefinite" begin="1.9s"/>
+  </circle>
+  <circle cx="78" cy="200" r="0.8" fill="white">
+    <animate attributeName="opacity" values="0.15;0.8;0.15" dur="3.9s" repeatCount="indefinite" begin="0.3s"/>
+  </circle>
+  <circle cx="826" cy="210" r="0.8" fill="white">
+    <animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.3s" repeatCount="indefinite" begin="1.5s"/>
+  </circle>
+  <circle cx="182" cy="380" r="1" fill="white">
+    <animate attributeName="opacity" values="0.1;0.75;0.1" dur="4s" repeatCount="indefinite" begin="0.6s"/>
+  </circle>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!--  DISTANT CRESCENT PLANET (top-left)    -->
+  <!-- ═══════════════════════════════════════ -->
+  <circle cx="75" cy="78" r="27" fill="#7c3aed" fill-opacity="0.06"
+          stroke="#7c3aed" stroke-width="1" stroke-opacity="0.18"/>
+  <!-- crescent mask -->
+  <circle cx="87" cy="78" r="27" fill="#05050f"/>
+  <!-- planet ring -->
+  <ellipse cx="75" cy="78" rx="40" ry="9" fill="none"
+           stroke="#7c3aed" stroke-width="0.8" stroke-opacity="0.16"/>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!--  SATELLITE 1 (top-right)               -->
+  <!-- ═══════════════════════════════════════ -->
+  <g transform="translate(795,58) rotate(40)" opacity="0.13">
+    <rect x="-8" y="-1" width="16" height="2" fill="white" rx="0.8"/>
+    <rect x="-1" y="-8" width="2" height="16" fill="white" rx="0.8"/>
+    <rect x="-14" y="-0.6" width="6" height="1.2" fill="white" rx="0.4"/>
+    <rect x="8"  y="-0.6" width="6" height="1.2" fill="white" rx="0.4"/>
+  </g>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!--  SATELLITE 2 (bottom-left)             -->
+  <!-- ═══════════════════════════════════════ -->
+  <g transform="translate(115,335) rotate(-25)" opacity="0.1">
+    <rect x="-6" y="-1" width="12" height="2" fill="white" rx="0.6"/>
+    <rect x="-1" y="-6" width="2" height="12" fill="white" rx="0.6"/>
+    <rect x="-10" y="-0.5" width="4" height="1" fill="white" rx="0.3"/>
+    <rect x="6"  y="-0.5" width="4" height="1" fill="white" rx="0.3"/>
+  </g>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!--  ASTRONAUT (top-right, floating)       -->
+  <!-- ═══════════════════════════════════════ -->
+  <g opacity="0.17">
+    <animateTransform attributeName="transform" type="translate"
+      values="840,38; 840,24; 840,38"
+      dur="4.2s" repeatCount="indefinite"
+      calcMode="spline" keyTimes="0;0.5;1"
+      keySplines="0.45 0.05 0.55 0.95;0.45 0.05 0.55 0.95"/>
+    <!-- helmet -->
+    <ellipse cx="0" cy="0"  rx="11" ry="12" fill="white"/>
+    <ellipse cx="1" cy="1"  rx="6"  ry="6"  fill="#0a0a18" fill-opacity="0.55"/>
+    <!-- visor shine -->
+    <ellipse cx="-2" cy="-2" rx="2" ry="1.5" fill="white" fill-opacity="0.3" transform="rotate(-20,-2,-2)"/>
+    <!-- body -->
+    <rect x="-9" y="11" width="18" height="19" rx="5" fill="white"/>
+    <!-- backpack -->
+    <rect x="8"  y="13" width="5"  height="10" rx="2" fill="white" fill-opacity="0.7"/>
+    <!-- arms -->
+    <rect x="-17" y="13" width="9" height="5" rx="2.5" fill="white" transform="rotate(-12,-17,15)"/>
+    <rect x="8"   y="13" width="9" height="5" rx="2.5" fill="white" transform="rotate(12,17,15)"/>
+    <!-- legs -->
+    <rect x="-6" y="29" width="5" height="11" rx="2.5" fill="white"/>
+    <rect x="1"  y="29" width="5" height="11" rx="2.5" fill="white"/>
+  </g>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!--  NEBULA GLOW (behind name)             -->
+  <!-- ═══════════════════════════════════════ -->
+  <ellipse cx="450" cy="285" rx="310" ry="95" fill="url(#nebula)"/>
+
+  <!-- Planet aura soft glow -->
+  <circle cx="450" cy="125" r="90" fill="url(#aura)" filter="url(#softglow)"/>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!--  FLOATING PLANET SYSTEM                -->
+  <!-- ═══════════════════════════════════════ -->
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+      values="0,0; 0,-16; 0,0"
+      dur="5s" repeatCount="indefinite"
+      calcMode="spline" keyTimes="0;0.5;1"
+      keySplines="0.45 0.05 0.55 0.95;0.45 0.05 0.55 0.95"/>
+
+    <!-- Dashed outer orbit ring -->
+    <ellipse cx="450" cy="125" rx="95" ry="23" fill="none"
+             stroke="#bd9dff" stroke-width="0.8" stroke-opacity="0.1"
+             stroke-dasharray="5,6"/>
+
+    <!-- RING — back arc (top, behind planet) -->
+    <path d="M 372,125 A 78,20 0 0,0 528,125"
+          fill="none" stroke="#bd9dff" stroke-width="1.5" stroke-opacity="0.28"/>
+
+    <!-- Planet soft glow -->
+    <circle cx="450" cy="125" r="62" fill="#7c3aed" fill-opacity="0.1"/>
+
+    <!-- Planet sphere -->
+    <circle cx="450" cy="125" r="46" fill="url(#pg)" filter="url(#glow)"/>
+
+    <!-- Specular highlight -->
+    <ellipse cx="436" cy="110" rx="14" ry="9"
+             fill="white" fill-opacity="0.13" transform="rotate(-18,436,110)"/>
+
+    <!-- RING — front arc (bottom, in front of planet) -->
+    <path d="M 372,125 A 78,20 0 0,1 528,125"
+          fill="none" stroke="#bd9dff" stroke-width="2.2" stroke-opacity="0.6"/>
+
+    <!-- Orbit dot (spinning around planet) -->
+    <circle cx="528" cy="125" r="4" fill="#bd9dff" filter="url(#glow)" opacity="0.95">
+      <animateTransform attributeName="transform" type="rotate"
+        from="0 450 125" to="360 450 125"
+        dur="8s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Planet ground shadow (fades as it rises) -->
+    <ellipse cx="450" cy="186" rx="40" ry="7" fill="#7c3aed" fill-opacity="0.28">
+      <animate attributeName="rx"
+        values="40;18;40" dur="5s" repeatCount="indefinite"
+        calcMode="spline" keyTimes="0;0.5;1"
+        keySplines="0.45 0.05 0.55 0.95;0.45 0.05 0.55 0.95"/>
+      <animate attributeName="fill-opacity"
+        values="0.28;0.06;0.28" dur="5s" repeatCount="indefinite"
+        calcMode="spline" keyTimes="0;0.5;1"
+        keySplines="0.45 0.05 0.55 0.95;0.45 0.05 0.55 0.95"/>
+    </ellipse>
+  </g>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!--  NAME                                  -->
+  <!-- ═══════════════════════════════════════ -->
+  <text x="450" y="240"
+        text-anchor="middle"
+        font-family="'Segoe UI', 'SF Pro Display', Helvetica, Arial, sans-serif"
+        font-size="48" font-weight="800" letter-spacing="-0.5"
+        fill="url(#ng)">Jeeva Pravin P K</text>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!--  ROLE LINE                             -->
+  <!-- ═══════════════════════════════════════ -->
+  <text x="450" y="272"
+        text-anchor="middle"
+        font-family="'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="13.5" font-weight="400"
+        fill="#aba9b9" letter-spacing="0.3">
+    B.Tech CSE (IoT)  ·  ML Engineer  ·  AI Researcher  ·  ShivNadar University
+  </text>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!--  TAGLINE                               -->
+  <!-- ═══════════════════════════════════════ -->
+  <text x="450" y="298"
+        text-anchor="middle"
+        font-family="'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="14" font-weight="500"
+        fill="#a67aff" letter-spacing="0.2">
+    Building intelligent ML systems · IoT · AI Research
+  </text>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!--  BADGE 1 — CGPA                        -->
+  <!-- ═══════════════════════════════════════ -->
+  <rect x="163" y="320" width="164" height="32" rx="16"
+        fill="url(#badge1)" stroke="#7c3aed" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="245" y="340" text-anchor="middle"
+        font-family="'Segoe UI', Arial, sans-serif"
+        font-size="10.5" font-weight="600" fill="#bd9dff" letter-spacing="0.8">
+    🎓  CGPA  9.0 / 10.0
+  </text>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!--  BADGE 2 — HACKATHON                   -->
+  <!-- ═══════════════════════════════════════ -->
+  <rect x="343" y="320" width="214" height="32" rx="16"
+        fill="url(#badge2)" stroke="#3b82f6" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="450" y="340" text-anchor="middle"
+        font-family="'Segoe UI', Arial, sans-serif"
+        font-size="10.5" font-weight="600" fill="#699cff" letter-spacing="0.8">
+    🏆  Top 25  ·  Shell AI Hackathon 2025
+  </text>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!--  BADGE 3 — LOCATION                    -->
+  <!-- ═══════════════════════════════════════ -->
+  <rect x="573" y="320" width="164" height="32" rx="16"
+        fill="url(#badge1)" stroke="#7c3aed" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="655" y="340" text-anchor="middle"
+        font-family="'Segoe UI', Arial, sans-serif"
+        font-size="10.5" font-weight="600" fill="#bd9dff" letter-spacing="0.8">
+    📍  Chennai,  India
+  </text>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!--  NAV LABEL (top center)                -->
+  <!-- ═══════════════════════════════════════ -->
+  <text x="450" y="22" text-anchor="middle"
+        font-family="'Segoe UI', Arial, sans-serif"
+        font-size="9" font-weight="700" fill="#474754" letter-spacing="4">
+    COSMIC OBSERVER
+  </text>
+
+  <!-- Bottom gradient fade -->
+  <rect x="0" y="370" width="900" height="50" rx="0"
+        fill="url(#nebula)" opacity="0.3"/>
+</svg>
