@@ -139,22 +139,6 @@
 ---
 
 <div align="center">
-<sub><code>// experience</code></sub>
-</div>
-
-<br/>
-
-**`Applied AI Intern`** &nbsp;·&nbsp; CSRBOX-AICTE IBM SkillsBuild &nbsp;·&nbsp; ![](https://img.shields.io/badge/Dec_2025–Jan_2026-7c3aed?style=flat-square&labelColor=1a0a2e)
-
-> Built end-to-end ML pipelines — preprocessing, feature engineering, supervised model training, and hyperparameter tuning on SQL-backed real-world datasets.
-
-**`AI & Sustainability Intern`** &nbsp;·&nbsp; 1M1B & IBM SkillsBuild &nbsp;·&nbsp; ![](https://img.shields.io/badge/Dec_2025–Jan_2026-3b82f6?style=flat-square&labelColor=0a1a2e)
-
-> Literature review and ML model analysis for climate impact. Mapped AI capabilities to SDG-aligned outcomes for cross-functional stakeholders.
-
----
-
-<div align="center">
 <sub><code>// find_me()</code></sub>
 <br/><br/>
 
