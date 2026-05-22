@@ -120,23 +120,19 @@
 
 </div>
 
----
-
 <div align="center">
 <sub><code>// stats</code></sub>
 <br/><br/>
 
-<img src="https://github-readme-stats.vercel.app/api?username=jeevapravin&show_icons=true&theme=transparent&hide_border=true&title_color=bd9dff&icon_color=699cff&text_color=e6e3f4&bg_color=05050f&ring_color=7c3aed" height="155"/>
+<img src="https://github-readme-stats.vercel.app/api?username=jeevapravin&show_icons=true&theme=transparent&hide_border=true&title_color=bd9dff&icon_color=699cff&text_color=e6e3f4&bg_color=05050f&ring_color=7c3aed&v=1" height="155" alt="GitHub Stats" />
 &nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jeevapravin&layout=compact&theme=transparent&hide_border=true&title_color=bd9dff&text_color=e6e3f4&bg_color=05050f" height="155"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jeevapravin&layout=compact&theme=transparent&hide_border=true&title_color=bd9dff&text_color=e6e3f4&bg_color=05050f&v=1" height="155" alt="Top Languages" />
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com?user=jeevapravin&theme=transparent&hide_border=true&ring=7c3aed&fire=3b82f6&currStreakLabel=bd9dff&sideLabels=aba9b9&dates=474754&currStreakNum=ffffff&sideNums=e6e3f4" height="150"/>
+<img src="https://streak-stats.demolab.com?user=jeevapravin&theme=transparent&hide_border=true&ring=7c3aed&fire=3b82f6&currStreakLabel=bd9dff&sideLabels=aba9b9&dates=474754&currStreakNum=ffffff&sideNums=e6e3f4&v=1" height="150" alt="GitHub Streak" />
 
 </div>
-
----
 
 <div align="center">
 <sub><code>// find_me()</code></sub>
